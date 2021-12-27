@@ -17,7 +17,7 @@ git clone https://github.com/sogainame/infra_sp2
 В корневой папке создайте файл .env, в котором надо присвоить необходимые переменные. Для этого проекта это переменные для настройки базы данных, у Вас они могут отличаться. Используйте следующий шаблон:
 ```
 DB_ENGINE=django.db.backends.postgresql 
-POSTGRES_DB=postgres 
+POSTGRES_DB=postgres
 POSTGRES_USER=postgres 
 POSTGRES_PASSWORD=Password
 DB_HOST=db 
@@ -45,7 +45,7 @@ docker-compose down
 ```
 
 ## Технологии
-Код приложения написан на **[Python](https://www.python.org/)**. Применены фреймворки **[Django](https://www.djangoproject.com/)**, **[Django rest framework](https://www.django-rest-framework.org/)**. Для хранения применена база данных **[PostgreSQL](https://www.postgresql.org/)**.
+Код приложения написан на **[Python](https://www.python.org/)**.  Применены фреймворки **[Django](https://www.djangoproject.com/)**, **[Django rest framework](https://www.django-rest-framework.org/)**. Для хранения применена база данных **[PostgreSQL](https://www.postgresql.org/)**.
 Для сборки контейнеров и развертывания приложений применен **[Docker](https://www.docker.com/)** и **[Docker-Compose](https://docs.docker.com/compose/)**.
 
 ### Необходимые компоненты
