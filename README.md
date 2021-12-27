@@ -56,4 +56,4 @@ docker-compose down
 
 Шмурыгин Федор. Студент яндекс-практикума. Когорта 18. **[Я в социальной сети](https://www.facebook.com/profile.php?id=100005098304501)**
 
-![example workflow](https://github.com/sogainame/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+![example workflow](https://github.com/sogainame/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
