@@ -3,6 +3,8 @@ version: '3.8'
 services:
   db:
     image: postgres:12.4
+    environment:
+            POSTGRES_PASSWORD: pass_word
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     env_file:
